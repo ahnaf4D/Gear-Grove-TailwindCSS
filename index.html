@@ -14,10 +14,37 @@
     <!-- TailwindCSS and Daisy UI Here -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- some custom styles here -->
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .font-inter {
+            font-family: 'Inter', sans-serif;
+
+        }
+    </style>
 </head>
 
 <body>
-    <header></header>
+    <header class="bg-[#264653]">
+        <nav
+            class="flex list-none m-0  text-center  lg: justify-end gap-9 pt-12 pr-8 text-white font-poppins font-medium">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button class="lg:ml-10 rounded-md bg-[#E76F51] w-24 h-11">Login</button></li>
+        </nav>
+        <div class="grid lg:grid-cols-2">
+
+        </div>
+    </header>
     <main></main>
     <footer></footer>
 </body>
